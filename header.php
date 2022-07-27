@@ -12,7 +12,6 @@
 ?><!DOCTYPE html>
 
 <html class="no-js" <?php language_attributes(); ?>>
-
 	<head>
 
 		<meta charset="<?php bloginfo( 'charset' ); ?>">
