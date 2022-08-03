@@ -159,11 +159,11 @@ Inter variable font. Usage:
 /* CUSTOM COLORS */
 
 :root .has-accent-color {
-	color: #cd2653;
+	color: #fcb9ce;
 }
 
 :root .has-accent-background-color {
-	background-color: #cd2653;
+	background-color: #fcb9ce;
 	color: #fff;
 }
 
@@ -227,7 +227,7 @@ Inter variable font. Usage:
 /* Typography -------------------------------- */
 
 .editor-styles-wrapper a {
-	color: #cd2653;
+	color: #fcb9ce;
 	text-decoration: underline;
 }
 
@@ -309,7 +309,7 @@ Inter variable font. Usage:
 /* DROP CAP */
 
 .editor-styles-wrapper .has-drop-cap:not(:focus)::first-letter {
-	color: #cd2653;
+	color: #fcb9ce;
 	font-size: 5.1em;
 	font-weight: 800;
 	margin: 0.05em 0 0 0.1em;
@@ -626,7 +626,7 @@ hr.wp-block-separator.is-style-dots::before {
 }
 
 .editor-styles-wrapper .wp-block-quote {
-	border-color: #cd2653;
+	border-color: #fcb9ce;
 	border-style: solid;
 	border-width: 0 2px 0 0;
 	margin-top: 20px;
@@ -775,7 +775,7 @@ hr.wp-block-separator.is-style-dots::before {
 .editor-styles-wrapper .wp-block-pullquote::before {
 	background: #fff;
 	border-radius: 50%;
-	color: #cd2653;
+	color: #fcb9ce;
 	content: "”";
 	display: block;
 	font-size: 62px;
@@ -898,7 +898,7 @@ hr.wp-block-separator.is-style-dots::before {
 
 .editor-styles-wrapper .wp-block-button__link,
 .editor-styles-wrapper .wp-block-file__button {
-	background: #cd2653;
+	background: #fcb9ce;
 	border-radius: 0;
 	color: #fff;
 	font-size: 15px;
@@ -919,7 +919,7 @@ hr.wp-block-separator.is-style-dots::before {
 .editor-styles-wrapper .is-style-outline.wp-block-button__link {
 	background: none;
 	border-color: currentColor;
-	color: #cd2653;
+	color: #fcb9ce;
 	padding: calc(1.1em - 2px) calc(1.44em - 2px);
 }
 
@@ -1047,7 +1047,7 @@ hr.wp-block-separator.is-style-dots::before {
 }
 
 .editor-styles-wrapper .wp-block-file .wp-block-file__textlink {
-	color: #cd2653;
+	color: #fcb9ce;
 	font-weight: 700;
 	text-decoration: none;
 }

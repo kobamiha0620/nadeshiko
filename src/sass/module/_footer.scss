@@ -1,0 +1,55 @@
+@use "./module/variable" as var;
+
+.footer{
+    &__inner{
+        width: 100%;
+        max-width: 400px;
+        margin: 0 auto;
+        &--bnr{
+            display: flex;
+            margin: 30px 0;
+            justify-content: space-between;
+            align-items: center;
+            a{
+                display: block;
+                margin: 0 10px;
+                img{
+                    border-radius: 3px;
+                }
+            }
+        }
+
+    }
+    &__inquiery{
+        max-width: 360px;
+        width: 80vw;
+        margin: 0 auto 50px;
+
+    }
+    &__copyright{
+        margin: 0 auto;
+        text-align: center; 
+        font-size: 0.8em;
+    }
+    //spサイズ
+    @media only screen and (max-width: var.$bp) {
+        &__inner{
+            &--bnr{
+                display: flex;
+                flex-wrap: wrap;
+                margin: 20px 0;
+                padding: 0 5%;
+                justify-content: space-between;
+                align-items: center;
+                a{
+                    margin: 0 0 10px;
+                    width: 48%;
+                }
+            }
+        }
+        &__inquiery{
+            margin: 0 auto 10vw;
+        }
+    }
+}
+

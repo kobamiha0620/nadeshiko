@@ -1,0 +1,25 @@
+$basic: #444444;
+$pink: #fcb9ce;
+$bp: 768px;
+$pcbp: 1080px;
+$perpul: #b38fe2;
+/* ANIMATION*/
+@keyframes fadeInAnime{
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+//フェードイ
+.fadein {
+    animation-name: fadeInAnime;
+    animation-duration:3s;
+    animation-timing-function:ease;
+    animation-delay: 0.5s;
+    animation-direction:normal;
+}
+    

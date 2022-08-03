@@ -1,0 +1,12 @@
+@charset "UTF-8";
+/* 共通サイズ */
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  max-width: 100%;
+  color: #444444;
+  font-family: "Klee One", cursive !important;
+  font-family: "Noto Serif JP", serif !important;
+  font-family: "Outfit", sans-serif !important;
+  font-family: "Work Sans", sans-serif !important;
+}

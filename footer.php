@@ -1,67 +1,31 @@
-<?php
-/**
- * The template for displaying the footer
- *
- * Contains the opening of the #site-footer div and all content after.
- *
- * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
- *
- * @package WordPress
- * @subpackage Twenty_Twenty
- * @since Twenty Twenty 1.0
- */
+		<footer id="site-footer" class="header-footer-group">
+		<div class="footer">
+			<div class="footer__inner">
+				<div class="footer__inner--bnr">
+					<a href="https://www.youtube.com/channel/UCoR4zZDvWvUIqgEWz4HS-sA   " target="_blank">
+					<img src="<?php echo get_template_directory_uri(); ?>/assets/images/bnr_youtube.png" alt="">
+					</a>
+					<a>
+						<img src="<?php echo get_template_directory_uri(); ?>/assets/images/bnr_eccite.png" alt="">
+					</a>
+           
+				</div>
 
-?>
-			<footer id="site-footer" class="header-footer-group">
+				<div class="footer__inquiery">
+					<a href="mailto:info.takanenonadeshiko@twinplanet.co.jp?subject=高嶺のなでしこ　出演依頼">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/bnr_conatct.png" alt="お問い合わせ">
+					</a>
+				</div>
 
-				<div class="section-inner">
+				<p class="footer__copyright">&copy; 2022 TWIN PLANET Co., Ltd.</p>
+			</div>
+		</div>
 
-					<div class="footer-credits">
-
-						<p class="footer-copyright">&copy;
-							<?php
-							echo date_i18n(
-								/* translators: Copyright date format, see https://www.php.net/manual/datetime.format.php */
-								_x( 'Y', 'copyright date format', 'twentytwenty' )
-							);
-							?>
-							<a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php bloginfo( 'name' ); ?></a>
-						</p><!-- .footer-copyright -->
-
-						<?php
-						if ( function_exists( 'the_privacy_policy_link' ) ) {
-							the_privacy_policy_link( '<p class="privacy-policy">', '</p>' );
-						}
-						?>
-
-						<p class="powered-by-wordpress">
-							<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'twentytwenty' ) ); ?>">
-								<?php _e( 'Powered by WordPress', 'twentytwenty' ); ?>
-							</a>
-						</p><!-- .powered-by-wordpress -->
-
-					</div><!-- .footer-credits -->
-
-					<a class="to-the-top" href="#site-header">
-						<span class="to-the-top-long">
-							<?php
-							/* translators: %s: HTML character for up arrow. */
-							printf( __( 'To the top %s', 'twentytwenty' ), '<span class="arrow" aria-hidden="true">&uarr;</span>' );
-							?>
-						</span><!-- .to-the-top-long -->
-						<span class="to-the-top-short">
-							<?php
-							/* translators: %s: HTML character for up arrow. */
-							printf( __( 'Up %s', 'twentytwenty' ), '<span class="arrow" aria-hidden="true">&uarr;</span>' );
-							?>
-						</span><!-- .to-the-top-short -->
-					</a><!-- .to-the-top -->
-
-				</div><!-- .section-inner -->
-
-			</footer><!-- #site-footer -->
+		</footer><!-- #site-footer -->
 
 		<?php wp_footer(); ?>
+
+
 
 	</body>
 </html>
