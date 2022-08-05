@@ -3,11 +3,11 @@
 <main id="front" class="front">
 	<div class="front__fvbottom">
 	<div id="particles-js"></div>
-	<h1 class="front__ttl fadein" >
+	<!-- <h1 class="front__ttl fadein" >
 			<span>
 			<img src="<?php echo get_template_directory_uri(); ?>/assets/images/last_takane_logo_white.png" alt="logo">
 			</span>
-		</h1>
+		</h1> -->
 	</div>
 <!-- <div id="wrapper" st	yle=""></div> -->
 

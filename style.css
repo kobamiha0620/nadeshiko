@@ -128,10 +128,10 @@
   height: 800px;
 }
 .front__fvbottom {
-  background: url("./assets/images/messageImage.jpg") no-repeat 0 0;
+  background: url("./assets/images/topImg.jpg") no-repeat 0 0;
   background-size: 100% auto;
   width: 100vw;
-  height: 59.38vw;
+  height: 72vw;
   position: relative;
 }
 .front__ttl {
@@ -333,7 +333,7 @@
   .front__fvbottom {
     background-size: 100% auto;
     width: 100vw;
-    height: 60vw;
+    height: 72vw;
     position: relative;
     margin-top: 0px;
   }

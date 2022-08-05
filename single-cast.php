@@ -86,13 +86,7 @@ get_header();
 
 
                 <ul class="profile__link">
-                     <?php
-                    $custom_fields = get_post_meta( $post->ID , 'showroom' , true );
-                    if(empty( $custom_fields ) === false){ ?>
-                        <li>
-                            <a href="<?php  echo get_post_meta($post->ID , 'showroom' ,true); ?>" target="_blank" class="sns_showroom"></a>
-                        </li>
-                    <?php } ?>  
+
                     <?php
                     $custom_fields = get_post_meta( $post->ID , 'member_twitter' , true );
                     if(empty( $custom_fields ) === false){ ?>
@@ -115,7 +109,13 @@ get_header();
                             <a href="<?php  echo get_post_meta($post->ID , 'member_tiktok' ,true); ?>" target="_blank" class="sns_tiktok"></a>
                         </li>
                     <?php } ?>  
-
+                    <?php
+                    $custom_fields = get_post_meta( $post->ID , 'showroom' , true );
+                    if(empty( $custom_fields ) === false){ ?>
+                        <li>
+                            <a href="<?php  echo get_post_meta($post->ID , 'showroom' ,true); ?>" target="_blank" class="sns_showroom"></a>
+                        </li>
+                    <?php } ?>  
 
                 </ul>
             </div>

@@ -13,6 +13,8 @@
             $cat_posts = get_posts(array(
                 'post_type' => 'post', // 投稿タイプ
                 'category_name' => 'cast', // カテゴリをスラッグで指定する場合
+                'posts_per_page' => 30 ,// 表示件数の指定
+
             ));
             global $post;
             if($cat_posts): foreach($cat_posts as $post): setup_postdata($post); ?>
@@ -31,13 +33,7 @@
                     </div>
 
                     <ul class="members__link">
-                    <?php
-                    $custom_fields = get_post_meta( $post->ID , 'showroom' , true );
-                    if(empty( $custom_fields ) === false){ ?>
-                        <li>
-                            <a href="<?php  echo get_post_meta($post->ID , 'showroom' ,true); ?>" target="_blank" class="sns_showroom"></a>
-                        </li>
-                    <?php } ?>  
+
                     <?php
                     $custom_fields = get_post_meta( $post->ID , 'member_twitter' , true );
                     if(empty( $custom_fields ) === false){ ?>
@@ -60,7 +56,13 @@
                             <a href="<?php  echo get_post_meta($post->ID , 'member_tiktok' ,true); ?>" target="_blank" class="sns_tiktok"></a>
                         </li>
                     <?php } ?>  
-
+                    <?php
+                    $custom_fields = get_post_meta( $post->ID , 'showroom' , true );
+                    if(empty( $custom_fields ) === false){ ?>
+                        <li>
+                            <a href="<?php  echo get_post_meta($post->ID , 'showroom' ,true); ?>" target="_blank" class="sns_showroom"></a>
+                        </li>
+                    <?php } ?>  
                     </ul>
                 </div>
             </li>
