@@ -22,6 +22,8 @@ get_header();
 	<?php elseif(is_page('members')): ?>
 		<?php get_template_part( 'template-parts/page-members' ); ?>
 
+	<?php elseif(is_page('inquiery')): ?>
+		<?php get_template_part( 'template-parts/page-inquiery' ); ?>
 
 	<?php else: ?>
 		<?php

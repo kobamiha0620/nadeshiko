@@ -8,13 +8,13 @@
             </li>
             <li class="swiper-slide">
                 <a href="https://www.youtube.com/channel/UCoR4zZDvWvUIqgEWz4HS-sA" target="_blank">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/bnr_youtube.png" alt="">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/banner_youtube.jpg" alt="">
                 </a>
             </li>
            
             <li class="swiper-slide">
                 <a href="https://takanenonadeshiko-ec.com/" target="_blank">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/bnr_eccite.png" alt="">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/banner_SHOP.jpg" alt="">
                 </a>	
             </li>
         </div>

@@ -27,9 +27,38 @@
 
     }
     &__copyright{
-        margin: 0 auto;
+        margin: 0;
         text-align: center; 
         font-size: 0.8em;
+    }
+    &__btm--wrapper{
+        display: flex;
+        align-items: center;
+        max-width: 800px;
+        margin: 0 auto;
+        justify-content: flex-end;
+        @media only screen and (max-width: var.$bp) {
+            width: 100%;
+            max-width: 100%;
+            padding: 0 5%;
+        }
+    }
+    &__policy{
+        text-align: center;
+        
+        display: inline-block;
+        margin: 0 20px;
+        a{
+            display: inline-block;
+            color: #444;
+            font-size: 14px;
+            text-decoration: underline;
+            border-bottom: solid 1px #eee;
+            &:hover{
+                border-bottom: none;
+
+            }
+        }
     }
     //spサイズ
     @media only screen and (max-width: var.$bp) {
