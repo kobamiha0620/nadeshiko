@@ -29,6 +29,38 @@
           animation-direction: normal;
 }
 
+.conatactForm {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.conatactForm__ttl {
+  text-align: center;
+  font-size: 2.4rem;
+  font-weight: normal;
+}
+.conatactForm__subj {
+  margin: 10px 0 0;
+}
+.conatactForm input, .conatactForm textarea {
+  display: block;
+  margin: 6px 0 0;
+  padding: 1rem 1.5rem;
+}
+.conatactForm label {
+  margin-bottom: 3rem;
+}
+.conatactForm input[type=submit] {
+  background: #fcb9ce;
+  width: 80%;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+.wpcf7-response-output {
+  text-align: center;
+}
+
 .faq {
   width: 100vw;
   padding: 100px 0;
