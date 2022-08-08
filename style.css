@@ -389,6 +389,55 @@
   .front__schedule {
     padding: 10vw 5%;
   }
+  .front__schedule--inner {
+    width: 100%;
+    max-width: 100vw;
+  }
+  .front__schedule--img {
+    min-width: 80px;
+    max-width: 80px;
+    margin: 0 16px 0 0;
+  }
+  .front__schedule--img img {
+    height: 80px;
+    width: 80px;
+  }
+  .front__schedule--link {
+    margin: 0 0 20px;
+  }
+  .front__schedule--ttl {
+    margin: 0 0 10px;
+    font-size: 18px;
+  }
+  .front__schedule--lists li {
+    margin: 0 0 30px;
+  }
+  .front__schedule--exerpt {
+    margin: 0;
+    font-size: 10px;
+  }
+  .front__schedule--cates {
+    margin: 0 10px 0 0;
+  }
+  .front__schedule--cates span {
+    font-size: 12px;
+    padding: 3px 10px;
+  }
+  .front__schedule--cateblc {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 6px 0;
+  }
+  .front__schedule--cateblc-date {
+    display: inline-block;
+    margin: 0 10px 0 0;
+    font-size: 14px;
+    letter-spacing: 0.2em;
+  }
 }
 @media only screen and (max-width: 768px) {
   .front__ttl {
@@ -1085,6 +1134,10 @@
     padding: 0 10px !important;
   }
 }
+.eventorganiser-event-meta {
+  display: none;
+}
+
 .swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
   bottom: -40px;
 }

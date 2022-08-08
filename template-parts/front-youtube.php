@@ -4,6 +4,9 @@
     <ul class="front__youtube--blclist">
         <li class=""><!--  class="one" -->
             <div class="front__youtube--blc">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/cuHzWWu4Pgg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>        </li>
+        <li class=""><!--  class="one" -->
+            <div class="front__youtube--blc">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/YcGoOQcXjO8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>        </div>
         </li>
         <li class="">
@@ -16,11 +19,7 @@
             <iframe width="560" height="315" src="https://www.youtube.com/embed/fryL_ro-ffI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </li>
-        <li class=""><!--  class="one" -->
-            <div class="front__youtube--blc">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/diDzRI6Ci48" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-        </li>
+
 
     </ul>
 
