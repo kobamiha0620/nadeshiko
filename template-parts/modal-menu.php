@@ -106,7 +106,10 @@
 					<?php
 				}
 				?>
-
+				<div class="menu__sns">
+					<a href="https://www.instagram.com/takanenofficial/" target="_blank" class="footer__sns--insta">Instagram</a>
+					<a href="https://www.tiktok.com/@takanenofficial" target="_blank" class="footer__sns--tiktok">Tiktok</a>
+				</div>
 			</div><!-- .menu-top -->
 
 			<div class="menu-bottom">
@@ -132,8 +135,9 @@
 								)
 							);
 							?>
-
 						</ul>
+						
+
 					</nav><!-- .social-menu -->
 
 				<?php } ?>

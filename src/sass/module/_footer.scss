@@ -23,7 +23,7 @@
     &__inquiery{
         max-width: 360px;
         width: 80vw;
-        margin: 0 auto 50px;
+        margin: 0 auto 30px;
 
     }
     &__copyright{
@@ -60,6 +60,33 @@
             }
         }
     }
+    &__sns{
+        display: flex;
+        justify-content: center;
+        margin: 0 auto 30px;
+
+        a{
+            margin: 0 10px;
+        }
+        &--insta{
+            text-indent: -9999px;
+            white-space: nowrap;
+            display: block;
+            width: 30px;
+            height: 30px;
+            background: url('http://takanenonadeshiko.jp/wp-content/uploads/2022/08/icon_footer-insta.png') no-repeat 0 0;
+            background-size: 100% auto;
+        }
+        &--tiktok{
+            text-indent: -9999px;
+            white-space: nowrap;
+            display: block;
+            width: 30px;
+            height: 30px;
+            background: url('http://takanenonadeshiko.jp/wp-content/uploads/2022/08/icon_footer-tiktok.png') no-repeat 0 0;
+            background-size: 100% auto;
+        }
+    }
     //spサイズ
     @media only screen and (max-width: var.$bp) {
         &__inner{
@@ -77,7 +104,7 @@
             }
         }
         &__inquiery{
-            margin: 0 auto 10vw;
+            margin: 0 auto 5vw;
         }
     }
 }

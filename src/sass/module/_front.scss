@@ -45,7 +45,7 @@
         padding: 100px 0;
         &--inner{
             width: 100%;
-            max-width: var.$pcbp;
+            max-width: 800px;
             margin: 0 auto;
         }
         &--img{
@@ -66,13 +66,13 @@
             color: #444;
         }
         &--ttl{
-            margin: 0 0 10px;
-            line-height: 1;
-            font-size: 26px;
+            margin: 0 0 3px;
+            line-height: 1.4;
+            font-size: 22px;
         }   
         &--lists{
             li{
-                margin: 0 0 30px;
+                margin: 0 0 38px;
                 img{
                     width: 100%;
                 }
@@ -104,14 +104,14 @@
         &--cateblc{
             display: flex;
             align-items: center;
-            margin: 10px 0;
+            margin: 0 0 6px;
             p{
                 margin: 0;
             }
             &-date{
                 display: inline-block;
                 margin: 0 10px 0 0;
-                font-size: 18px;
+                font-size: 14px;
                 letter-spacing: 0.2em;
             }
         }
@@ -125,7 +125,7 @@
   
         &--inner{
             width: 100%;
-            max-width: var.$pcbp;
+            max-width: 800px;
             margin: 0 auto;
         }
         &--img{
@@ -149,12 +149,13 @@
         }
         &--ttl{
             margin: 0 0 10px;
-            line-height: 1;
-            font-size: 26px;
+            line-height: 1.4;
+            font-size: 22px;
         }   
         &--lists{
 
             li{
+                margin-bottom: 38px;
                 img{
                     width: 100%;
                 }
@@ -189,7 +190,7 @@
         &--cateblc{
             display: flex;
             align-items: center;
-            margin: 10px 0;
+            margin: 0 0 6px;
             p{
                 margin: 0;
             }
@@ -334,7 +335,7 @@
 
     &__youtube{
         width: 100%;
-        max-width: var.$pcbp;
+        max-width: 800px;
         margin: 0 auto;
         padding: 100px 0;
         &--blc{

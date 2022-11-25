@@ -8,7 +8,7 @@
                 <?php
                 $args = array(
                     'cat' => '-1, -4', //メンバーを非表示
-                    'posts_per_page' => 20 // 表示件数の指定
+                    'posts_per_page' => 2 // 表示件数の指定
                 );
                     $posts = get_posts( $args );
                     foreach ( $posts as $post ): // ループの開始
@@ -56,8 +56,17 @@
 
 
                 </ul>
+                <?php
 
-
+// 以下ページネーション 
+$args = array(
+    'current' => max(1, $page),
+    'end_size' => 1,
+    'mid_size' => 1,
+    'type' => 'list',
+    );
+paginate_links($args);
+?>
 
             </div>
             <!-- <p class="main__link--wrapper"><a href="/news/" target="_blank" class="main__link">More News<span></span></a></p> -->
@@ -65,3 +74,5 @@
     </div>
 
 </div>
+
+
