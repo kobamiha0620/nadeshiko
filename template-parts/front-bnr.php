@@ -2,18 +2,23 @@
     <ul class="font__bnrs mySwiper">
         <div class="swiper-wrapper">
             <li class="swiper-slide">
+                <a href="https://takanekofc.com/" target="_blank" rel="noopenner noreferrer" >
+                    <img src="http://takanenonadeshiko.jp/wp-content/uploads/2022/11/bnr_fan.jpg" alt="" style="border: solid 1px #eee;">
+                </a>	
+            </li>
+            <li class="swiper-slide">
                 <a href="/inquiery/">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/bnr_conatct.png" alt="">
                 </a>
             </li>
             <li class="swiper-slide">
-                <a href="https://www.youtube.com/channel/UCoR4zZDvWvUIqgEWz4HS-sA" target="_blank">
+                <a href="https://www.youtube.com/channel/UCoR4zZDvWvUIqgEWz4HS-sA" target="_blank" rel="noopenner noreferrer">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/banner_youtube02.jpg" alt="">
                 </a>
             </li>
            
             <li class="swiper-slide">
-                <a href="https://takanenonadeshiko-ec.com/" target="_blank">
+                <a href="https://takanenonadeshiko-ec.com/" target="_blank" rel="noopenner noreferrer">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/banner_shop02.jpg" alt="">
                 </a>	
             </li>

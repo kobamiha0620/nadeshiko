@@ -2,17 +2,21 @@
 
 .footer{
     &__inner{
-        width: 100%;
-        max-width: 400px;
+        max-width: 600px;
         margin: 0 auto;
         &--bnr{
             display: flex;
-            margin: 30px 0;
+            width: 100%;
+            width: 100%;
+
+            margin: 10px 0 20px;
             justify-content: space-between;
             align-items: center;
             a{
+                width: 32%;
+                min-width: 32%;
                 display: block;
-                margin: 0 10px;
+                margin: 0 1%;
                 img{
                     border-radius: 3px;
                 }
@@ -21,7 +25,7 @@
 
     }
     &__inquiery{
-        max-width: 360px;
+        max-width: 280px;
         width: 80vw;
         margin: 0 auto 30px;
 
@@ -95,10 +99,10 @@
                 flex-wrap: wrap;
                 margin: 20px 0;
                 padding: 0 5%;
-                justify-content: space-between;
+                justify-content: center;
                 align-items: center;
                 a{
-                    margin: 0 0 10px;
+                    margin: 0 1% 10px;
                     width: 48%;
                 }
             }
@@ -108,4 +112,6 @@
         }
     }
 }
+
+
 

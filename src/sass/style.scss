@@ -333,3 +333,31 @@ div.ewd-ufaq-faq-title div.ewd-ufaq-post-margin-symbol {
     margin-top: 20px;
   }
 }
+
+
+//追記
+@media only screen and (max-width: var.$bp) {
+  .front__bnrs--wrapper{
+      margin:  0 0;
+  }
+  .front__news{
+    padding-right: 8vw;
+    padding-left: 8vw;
+  }
+  .front__schedule{
+    padding-right: 8vw;
+    padding-left: 8vw;
+  }
+  .front__youtube{
+    padding-right: 8vw;
+    padding-left: 8vw;
+  }
+  .front__twitter{
+    padding-right: 8vw;
+    padding-left: 8vw;
+  }
+  .footer__inner--bnr{
+    padding-right: 8vw;
+    padding-left: 8vw;
+  }
+}

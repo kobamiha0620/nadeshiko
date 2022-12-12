@@ -1,15 +1,18 @@
 <?php get_header(); ?>
 
 <main id="front" class="front">
-	<div class="front__fvbottom">
-	<div id="particles-js"></div>
-	<!-- <h1 class="front__ttl fadein" >
-			<span>
-			<img src="<?php echo get_template_directory_uri(); ?>/assets/images/last_takane_logo_white.png" alt="logo">
-			</span>
-		</h1> -->
-	</div>
-<!-- <div id="wrapper" st	yle=""></div> -->
+
+
+
+	<?php if( get_field('img_fv') ): ?>
+		<img src="<?php the_field('img_fv'); ?>" alt="トップ画像">
+	<?php endif; ?>
+
+	<!-- <div class="front__fvbottom">
+			<div id="particles-js"></div>
+		</div> -->
+
+	
 
 	<?php get_template_part( 'template-parts/front-bnr' ); ?>
 

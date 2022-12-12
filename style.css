@@ -94,15 +94,16 @@
 }
 
 .footer__inner {
-  width: 100%;
-  max-width: 400px;
+  max-width: 600px;
   margin: 0 auto;
 }
 .footer__inner--bnr {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: 30px 0;
+  width: 100%;
+  width: 100%;
+  margin: 10px 0 20px;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -111,14 +112,16 @@
           align-items: center;
 }
 .footer__inner--bnr a {
+  width: 32%;
+  min-width: 32%;
   display: block;
-  margin: 0 10px;
+  margin: 0 1%;
 }
 .footer__inner--bnr a img {
   border-radius: 3px;
 }
 .footer__inquiery {
-  max-width: 360px;
+  max-width: 280px;
   width: 80vw;
   margin: 0 auto 30px;
 }
@@ -201,15 +204,15 @@
         flex-wrap: wrap;
     margin: 20px 0;
     padding: 0 5%;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
   }
   .footer__inner--bnr a {
-    margin: 0 0 10px;
+    margin: 0 1% 10px;
     width: 48%;
   }
   .footer__inquiery {
@@ -1515,4 +1518,35 @@ div.ewd-ufaq-faq-title div.ewd-ufaq-post-margin-symbol {
   display: block;
   margin-right: 16px;
   margin-top: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  .front__bnrs--wrapper {
+    margin: 0 0;
+  }
+
+  .front__news {
+    padding-right: 8vw;
+    padding-left: 8vw;
+  }
+
+  .front__schedule {
+    padding-right: 8vw;
+    padding-left: 8vw;
+  }
+
+  .front__youtube {
+    padding-right: 8vw;
+    padding-left: 8vw;
+  }
+
+  .front__twitter {
+    padding-right: 8vw;
+    padding-left: 8vw;
+  }
+
+  .footer__inner--bnr {
+    padding-right: 8vw;
+    padding-left: 8vw;
+  }
 }
