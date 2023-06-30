@@ -786,3 +786,7 @@ function twentytwenty_get_elements_array() {
 	 */
 	return apply_filters( 'twentytwenty_get_elements_array', $elements );
 }
+
+if ( isset( $GLOBALS['wp_embed'] ) ) {
+	remove_filter( 'the_content', array( $GLOBALS['wp_embed'], 'autoembed' ), 8 );
+}

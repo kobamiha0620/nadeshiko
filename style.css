@@ -29,6 +29,130 @@
           animation-direction: normal;
 }
 
+.eigo {
+  font-family: "Poppins", sans-serif;
+}
+
+.about {
+  width: 100vw;
+  padding: 0 0 100px;
+}
+.about__blc {
+  border: solid 1px #FFF;
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 98px 60px 70px;
+}
+.about__ttl {
+  background: url("http://takanenonadeshiko.jp/wp-content/uploads/2023/06/ttl_about.png") no-repeat 0 0;
+  background-size: 100% auto;
+  width: 220px;
+  height: 104px;
+  white-space: nowrap;
+  text-indent: -9999px;
+  text-align: center;
+  font-size: 0;
+  margin: 0 auto 100px;
+  padding: 0;
+}
+.about__box {
+  background: rgba(226, 117, 155, 0.18);
+  border-radius: 10px;
+  padding: 45px 40px 30px;
+  margin: 50px 0 0;
+}
+.about__box--txt {
+  color: #FFF;
+  line-height: 1.6;
+  font-size: 14px;
+  text-align: center;
+}
+.about__txt {
+  text-align: center;
+  color: #E2759B;
+  font-size: 16px;
+  line-height: 2;
+}
+.about + .page {
+  display: none !important;
+}
+.about__inner {
+  width: 100%;
+  max-width: 1080px;
+  margin: 0 auto;
+}
+.about__subttl {
+  text-align: center;
+  color: #444;
+  margin: 40px 0;
+}
+.about .main__ttl {
+  letter-spacing: 0.1em;
+  text-align: center;
+  color: #444;
+  font-weight: normal;
+  font-style: italic;
+}
+.about .main__ttl span {
+  color: #fcb9ce;
+}
+@media only screen and (max-width: 768px) {
+  .about {
+    padding: 30vw 5% 10vw;
+  }
+  .about__blc {
+    padding: 20vw 10vw 15vw;
+  }
+  .about__ttl {
+    width: 180px;
+    height: 88px;
+    margin: 0 auto 20vw;
+  }
+  .about__box {
+    border-radius: 5px;
+    padding: 5vw 4vw 3vw;
+    margin: 50px 0 0;
+  }
+  .about__box--txt {
+    line-height: 1.5;
+    font-size: 14px;
+  }
+  .about__txt {
+    font-size: 15px;
+    line-height: 1.8;
+  }
+  .about + .page {
+    display: none !important;
+  }
+  .about__inner {
+    width: 100%;
+    max-width: 1080px;
+    margin: 0 auto;
+  }
+  .about__subttl {
+    text-align: center;
+    color: #444;
+    margin: 40px 0;
+  }
+}
+
+body.page-id-167 main, body.page-id-55 main {
+  background-color: #F4DDE9;
+}
+
+#about {
+  background-color: #F4DDE9;
+}
+
+.ewd-ufaq-faq-title-text {
+  margin: 0 !important;
+}
+.ewd-ufaq-faq-title-text h4 {
+  margin: 0 !important;
+  line-height: 1;
+  color: #b38fe2;
+}
+
 .conatactForm {
   max-width: 800px;
   margin: 0 auto;
@@ -59,6 +183,254 @@
 
 .wpcf7-response-output {
   text-align: center;
+}
+
+.discography {
+  width: 100vw;
+  padding: 0 0 100px;
+}
+.discography__blc {
+  max-width: 980px;
+  padding: 0 30px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.discography__img {
+  max-width: 420px;
+  margin-right: 20px;
+}
+.discography__img img {
+  width: 100%;
+  height: auto;
+}
+.discography__txtblc {
+  width: 100%;
+  max-width: 450px;
+}
+.discography__cate {
+  margin: 0 0 10px;
+}
+.discography__cate li {
+  display: inline-block;
+  color: #E2759B;
+}
+.discography__cate li p {
+  line-height: 1;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.1em;
+}
+.discography__cate li p::before {
+  content: "・";
+}
+.discography__cate li:first-child p::before {
+  content: none;
+}
+.discography__txt {
+  text-align: center;
+  color: #E2759B;
+  font-size: 16px;
+  line-height: 2;
+}
+.discography__subttl {
+  color: #444;
+  margin: 0 0 16px;
+  font-weight: normal;
+  line-height: 1.4;
+  font-size: 24px;
+}
+.discography__date {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  color: #444;
+  letter-spacing: 0.1em;
+}
+.discography__tracklist {
+  background: url("http://takanenonadeshiko.jp/wp-content/uploads/2023/06/img_dotted.png") repeat-x 0 0;
+  background-size: 6px 2px;
+  width: 100%;
+  padding-top: 40px;
+  margin-top: 40px;
+}
+.discography__tracklist--ttl {
+  color: #E2759B;
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  margin: 0 0 26px;
+  line-height: 1;
+  letter-spacing: 0.1em;
+}
+.discography__tracklist--txt {
+  font-weight: normal;
+  font-size: 16px;
+}
+.discography__streaming--btn {
+  font-family: "Poppins", sans-serif;
+  border-radius: 50px;
+  overflow: hidden;
+  text-decoration: none;
+  color: #E2759B;
+  font-size: 16px;
+  background: transparent;
+  max-width: 240px;
+  position: relative;
+  border: solid 1px #E2759B;
+  z-index: 1;
+  display: block;
+  overflow: hidden;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  line-height: 0;
+  margin-top: 40px;
+}
+.discography__streaming--btn span {
+  position: relative;
+  display: block;
+  text-align: center;
+  line-height: 1.2;
+  letter-spacing: 0.1em;
+  padding: 1rem 0;
+  -webkit-transition: 0.2s ease 0.2s;
+  transition: 0.2s ease 0.2s;
+}
+.discography__streaming--btn::before {
+  content: "";
+  width: 120%;
+  height: 200%;
+  position: absolute;
+  top: -50%;
+  right: 0;
+  z-index: -1;
+  background: #E2759B;
+  border-radius: 0 100% 100% 0;
+  -webkit-transform: translateX(-100%);
+          transform: translateX(-100%);
+  -webkit-transition: -webkit-transform ease 0.3s;
+  transition: -webkit-transform ease 0.3s;
+  transition: transform ease 0.3s;
+  transition: transform ease 0.3s, -webkit-transform ease 0.3s;
+}
+.discography__streaming--btn:hover {
+  opacity: 1;
+}
+.discography__streaming--btn:hover span {
+  color: #fff;
+}
+.discography__streaming--btn:hover::before {
+  -webkit-transform: translateX(10%);
+          transform: translateX(10%);
+}
+.discography__back {
+  text-align: center;
+  margin: 80px auto;
+}
+.discography__back a {
+  text-decoration: none;
+  display: block;
+  white-space: nowrap;
+  text-indent: -9999px;
+  width: 180px;
+  height: 16px;
+  background: url("http://takanenonadeshiko.jp/wp-content/uploads/2023/06/img_backlink.png") no-repeat 0 0;
+  background-size: 100% auto;
+  margin: 0 auto;
+}
+.discography__post {
+  width: 100%;
+  border-top: solid 1px #FFF;
+  padding: 80px 0;
+}
+.discography__post--inner {
+  max-width: 980px;
+  padding: 0 30px;
+  margin: 0 auto;
+}
+@media only screen and (max-width: 768px) {
+  .discography {
+    width: 100vw;
+  }
+  .discography__blc {
+    max-width: 100%;
+    padding: 0 5vw;
+    margin: 0 auto;
+    display: block;
+  }
+  .discography__img {
+    max-width: 100%;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+  .discography__txtblc {
+    width: 100%;
+    max-width: 100%;
+  }
+  .discography__cate {
+    margin: 0 0 10px;
+  }
+  .discography__cate li p {
+    font-size: 14px;
+  }
+  .discography__txt {
+    font-size: 14px;
+    line-height: 1.8;
+  }
+  .discography__subttl {
+    margin: 0 0 14px;
+    line-height: 1.4;
+    font-size: 21px;
+  }
+  .discography__date {
+    font-size: 14px;
+  }
+  .discography__tracklist {
+    width: 100%;
+    padding-top: 10vw;
+    margin-top: 10vw;
+  }
+  .discography__tracklist--ttl {
+    font-size: 14px;
+    margin: 0 0 22px;
+  }
+  .discography__tracklist--txt {
+    font-size: 14px;
+  }
+  .discography__streaming--btn {
+    font-size: 14px;
+    max-width: 100%;
+    margin-top: 10vw;
+  }
+  .discography__back {
+    margin: 20vw auto;
+  }
+  .discography__back a {
+    width: 160px;
+    height: 14px;
+  }
+  .discography__post {
+    padding: 20vw 0;
+  }
+  .discography__post--inner {
+    max-width: 100%;
+    padding: 0 5vw;
+    margin: 0 auto;
+  }
+}
+
+#discography {
+  padding-top: 140px;
+  background-color: #ffedf3;
+}
+@media only screen and (max-width: 768px) {
+  #discography {
+    padding: 24vw 5% 10vw;
+  }
 }
 
 .faq {
@@ -1174,6 +1546,284 @@
   display: none;
 }
 
+.streaming {
+  width: 100vw;
+  padding: 0 0 100px;
+}
+.streaming__blc {
+  max-width: 920px;
+  margin: 0 auto;
+  padding: 98px 60px 70px;
+}
+.streaming__lists {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+  margin-top: 94px;
+}
+.streaming__lists li {
+  max-width: 30%;
+  width: 30%;
+  margin-right: 3%;
+  position: relative;
+}
+.streaming__lists li a {
+  text-decoration: none;
+  color: #444;
+}
+.streaming__lists li:nth-child(3n) {
+  margin-right: 0;
+}
+.streaming__lists li::before {
+  display: block;
+  padding-top: 100%;
+}
+.streaming__lists li::before img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.streaming__name {
+  font-size: 18px;
+  margin: 10px 0;
+}
+.streaming__date {
+  font-size: 14px;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 0.1em;
+  line-height: 1;
+}
+.streaming__cate {
+  color: #E2759B;
+  font-size: 14px;
+  margin-top: 5px;
+}
+.streaming__cate span {
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 0.1em;
+}
+.streaming__cate span + span::before {
+  content: "・";
+}
+.streaming__ttl {
+  background: url("http://takanenonadeshiko.jp/wp-content/uploads/2023/06/img_discograo.png") no-repeat 0 0;
+  background-size: 100% auto;
+  width: 415px;
+  height: 90px;
+  white-space: nowrap;
+  text-indent: -9999px;
+  text-align: center;
+  font-size: 0;
+  margin: 0 auto 100px;
+  padding: 0;
+}
+.streaming__selectsp {
+  display: none;
+}
+.streaming__selectpc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.streaming__selectpc a {
+  display: inline-block;
+  border: solid 1px #E2759B;
+  border-radius: 30px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  letter-spacing: 0.1em;
+  color: #E2759B;
+  font-size: 16px;
+  margin: 0 5px;
+  padding: 0 16px;
+  text-align: center;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+.streaming__selectpc a:hover {
+  background: #E2759B;
+  color: #FFF;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+@media only screen and (max-width: 768px) {
+  .streaming {
+    padding: 20vw 5% 10vw;
+  }
+  .streaming__blc {
+    max-width: 100%;
+    padding: 0 0;
+  }
+  .streaming__lists {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    width: 100%;
+    margin-top: 30px;
+  }
+  .streaming__lists li {
+    max-width: 48%;
+    width: 48%;
+    margin-right: 4%;
+    position: relative;
+  }
+  .streaming__lists li:nth-child(even) {
+    margin-right: 0;
+  }
+  .streaming__name {
+    font-size: 16px;
+    margin: 8px 0;
+  }
+  .streaming__date {
+    font-size: 14px;
+  }
+  .streaming__cate {
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  .streaming__ttl {
+    width: 300px;
+    height: 63px;
+    margin: 0 auto 80px;
+  }
+  .streaming__selectsp {
+    margin: 0 auto;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: relative;
+  }
+  .streaming__selectsp--wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .streaming__selectsp::after {
+    position: absolute;
+    right: 15px;
+    width: 10px;
+    height: 7px;
+    background-color: #FFF;
+    -webkit-clip-path: polygon(0 0, 100% 0, 50% 100%);
+            clip-path: polygon(0 0, 100% 0, 50% 100%);
+    content: "";
+    pointer-events: none;
+  }
+  .streaming__selectsp select {
+    display: block;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    letter-spacing: 0.1em;
+    font-weight: 300;
+    font-size: 18px;
+    appearance: none;
+    min-width: 60vw;
+    height: 2.8em;
+    padding: 0 calc(0.8em + 5px) 0 0.8em;
+    border: none;
+    border-radius: 50px;
+    background-color: #E2759B;
+    color: #FFF;
+    font-size: 1em;
+    cursor: pointer;
+  }
+  .streaming__selectsp select::-ms-expand {
+    display: none;
+  }
+  .streaming__selectpc {
+    display: none;
+  }
+}
+
+#streaming {
+  background-color: #F4DDE9;
+}
+
+.ewd-ufaq-faq-title-text {
+  margin: 0 !important;
+}
+.ewd-ufaq-faq-title-text h4 {
+  margin: 0 !important;
+  line-height: 1;
+  color: #b38fe2;
+}
+
+body.page-id-163 main,
+body.page-id-1106 main {
+  background-color: #F4DDE9;
+}
+
+body.category-discography .streaming__selectpc .select-discography, body.category-discography .streaming__selectsp .select-discography {
+  background: #E2759B;
+  color: #FFF;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+body.category-single .streaming__selectpc .select-single, body.category-single .streaming__selectsp .select-single {
+  background: #E2759B;
+  color: #FFF;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+body.category-album .streaming__selectpc .select-album, body.category-album .streaming__selectsp .select-album {
+  background: #E2759B;
+  color: #FFF;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+body.category-blueray .streaming__selectpc .select-blueray, body.category-blueray .streaming__selectsp .select-blueray {
+  background: #E2759B;
+  color: #FFF;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+body.category-streaming .streaming__selectpc .select-streaming, body.category-streaming .streaming__selectsp .select-streaming {
+  background: #E2759B;
+  color: #FFF;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+body.category-other .streaming__selectpc .select-other, body.category-other .streaming__selectsp .select-other {
+  background: #E2759B;
+  color: #FFF;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
 .swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
   bottom: -40px;
 }
@@ -1549,4 +2199,38 @@ div.ewd-ufaq-faq-title div.ewd-ufaq-post-margin-symbol {
     padding-right: 8vw;
     padding-left: 8vw;
   }
+}
+nav.primary-menu-wrapper .primary-menu li a {
+  color: #E2759B !important;
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
+  letter-spacing: 0.1em;
+}
+nav.primary-menu-wrapper .primary-menu li a:hover {
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .header-inner {
+    padding: 2rem 0;
+  }
+}
+#site-header {
+  background: rgba(244, 221, 233, 0.7) !important;
+}
+
+main {
+  padding-top: 140px;
+}
+@media only screen and (max-width: 768px) {
+  main {
+    padding-top: 0;
+  }
+}
+
+body.home #site-header {
+  background: rgba(255, 255, 255, 0) !important;
+}
+body.home main {
+  padding-top: 0;
 }

@@ -206,8 +206,7 @@ a{
 
 
 
-element.style {
-}
+
 .modal-menu > li > a, .modal-menu > li > .ancestor-wrapper > a {
     font-size: 2rem;
     font-weight: 700;
@@ -361,3 +360,47 @@ div.ewd-ufaq-faq-title div.ewd-ufaq-post-margin-symbol {
     padding-left: 8vw;
   }
 }
+
+//追記230630
+nav.primary-menu-wrapper{
+  .primary-menu{
+    li{
+      a{
+        color: var.$pinkbold!important;
+        font-family: 'Poppins', sans-serif;
+        font-weight: normal;
+        letter-spacing: 0.1em;
+        &:hover{
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: var.$bp) {
+  .header-inner{
+    padding: 2rem 0;
+  }
+}
+
+
+
+#site-header{
+  background: rgba(244, 221, 233, 0.7)!important;
+}
+main{
+  padding-top: 140px;
+  @media only screen and (max-width: var.$bp) {
+    padding-top: 0;
+  }
+}
+body.home{
+  #site-header{
+    background: rgba(255, 255, 255, 0)!important;
+  }
+  main{
+    padding-top: 0;
+    
+  }
+}
+

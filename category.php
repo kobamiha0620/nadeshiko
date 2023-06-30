@@ -11,28 +11,17 @@
 
 get_header();
 ?>
+<?php $cat = get_the_category(); ?>
 
-<main id="page" class="page">
-
-	<!-- ニュースー一覧ページ -->
-	<?php if (is_page('news')): ?>
-	<?php get_template_part( 'template-parts/page-news' ); ?>
-
-	<!-- メンバー一覧ページ -->
-	<?php elseif(is_page('members')): ?>
-		<?php get_template_part( 'template-parts/page-members' ); ?>
-
-	<?php elseif(is_page('inquiery')): ?>
-		<?php get_template_part( 'template-parts/page-inquiery' ); ?>
-
-	<?php elseif(is_page('about')): ?>
-	<?php get_template_part( 'template-parts/page-about' ); ?>
+	<!-- ディスコグラフィー -->
+    <?php if (in_category(array('discography','single','album','blueray', 'streaming', 'other'))): ?>
+		<?php get_template_part( 'template-parts/category-discography' ); ?>
 
 	<?php else: ?>
+
 		<?php
 
 		if ( have_posts() ) {
-
 			while ( have_posts() ) {
 				the_post();
 
@@ -44,11 +33,6 @@ get_header();
 	<?php endif; ?>
 
 	
-
-
-
-</main><!-- #site-content -->
-
 <?php #get_template_part( 'template-parts/footer-menus-widgets' ); ?>
 
 <?php get_footer(); ?>
